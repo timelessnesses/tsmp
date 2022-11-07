@@ -12,4 +12,4 @@ while True:
                 if ".py" in file:
                         continue
                 print(f'loaded {file}')
-                pydub.playback.play(pydub.AudioSegment.from_file(file,format="wav")-6)
+                pydub.playback.play(pydub.AudioSegment.from_file(file)-6)
